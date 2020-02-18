@@ -61,6 +61,7 @@ background: rgba(0, 0, 0, .4);
   padding: 24px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
   border-radius: 2px;
+
   }
 main:after {
  content: "";
@@ -101,6 +102,41 @@ article{
 }
 .aside_right{
   float: right;
+}
+#search{
+  content: "";
+  display: table;
+  clear: both;
+}
+.search_bar{
+  float: left;
+  background: rgba(0, 0, 0, 0.04);
+  color: #999999;
+  width: 72%;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.submit_button{
+  background-color: rgb(112, 103, 96);
+  color: rgba(255, 255, 255, 0.7);
+  float: right;
+  width: 22%;
+  font-size: 0.9em;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .8);
+}
+.submit_button:hover{
+background-color: #504741;
 }
 footer{
   content: "";
