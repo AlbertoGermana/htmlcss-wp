@@ -93,7 +93,7 @@ aside div{
   margin: 2px 0;
   padding: 12px 8px;
 }
-aside ul>li>a, aside ul>li>a:visited{
+a, a:visited{
   color: #99cc33;
   text-decoration: none;
 }
@@ -155,14 +155,24 @@ background-color: #504741;
 .tags_container span{
   font-size: 2em;
 }
+
 /* ----------------------------------- sezione section */
 section{
   width: 44%;
   margin: 2%;
   float: left;
 }
-section p{
+section h2{
   margin-bottom: 24px;
+}
+section p{
+  margin: 12px 0;
+  color: #666666;
+  line-height: 1.8;
+}
+section a:hover{
+  color: #669900;
+  text-decoration: underline;
 }
 article{
   margin-bottom: 2%;
