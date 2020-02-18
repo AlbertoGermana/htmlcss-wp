@@ -104,14 +104,6 @@ aside ul>li:hover{
   color: #669900;
 }
 
-section{
-  width: 44%;
-  margin: 2%;
-  float: left;
-}
-article{
-  margin-bottom: 2%;
-}
 .aside_right{
   float: right;
 }
@@ -163,6 +155,22 @@ background-color: #504741;
 .tags_container span{
   font-size: 2em;
 }
+/* ----------------------------------- sezione section */
+section{
+  width: 44%;
+  margin: 2%;
+  float: left;
+}
+section p{
+  margin-bottom: 24px;
+}
+article{
+  margin-bottom: 2%;
+}
+article img{
+  width: 100%;
+}
+
 footer{
   content: "";
   display: table;
