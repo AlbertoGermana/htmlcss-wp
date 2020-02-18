@@ -1,20 +1,37 @@
+/* regole generali di pagina */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url("../img/sfondo.png");
+}
+
+/* fine regole generali di pagina */
+
 .wrapper{
   width: 1200px;
   margin: 0 auto;
 }
 
+/* sezione di testata */
 header{
   width: 100%;
+  background-color: white;
+  padding: 12px;
 }
+.site_banner{
+  background-image: url("../img/banner.jpg");
+  padding: 48px;}
+
+/* fine sezione di testata */
 nav{
   width: 100%;
   height: 50px;
+  background-color: #504741;
 }
+
 p,ul,li{
   margin: 5%;
 }
